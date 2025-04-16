@@ -1,0 +1,39 @@
+
+<html>
+ <head>
+  <title>Create Account</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+   <h1 class="text-2xl font-bold mb-6 text-center">Create account</h1>
+   <form>
+    <div class="mb-4">
+     <label class="block text-sm font-medium text-gray-700" for="name">Your name</label>
+     <input class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" id="name" name="name" placeholder="First and last name" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-sm font-medium text-gray-700" for="email">Mobile number or email</label>
+     <input class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" id="email" name="email" type="text"/>
+    </div>
+    <div class="mb-4">
+     <label class="block text-sm font-medium text-gray-700" for="password">Password</label>
+     <input class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" id="password" name="password" placeholder="At least 6 characters" type="password"/>
+     <p class="text-xs text-gray-600 mt-1">Passwords must be at least 6 characters.</p>
+    </div>
+    <div class="mb-6">
+     <label class="block text-sm font-medium text-gray-700" for="repassword">Re-enter password</label>
+     <input class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" id="repassword" name="repassword" type="password"/>
+    </div>
+    <button class="w-full bg-yellow-500 text-white py-2 rounded-md text-sm font-medium hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500" type="submit">Continue</button>
+   </form>
+   <p class="text-xs text-gray-600 mt-4">
+    By creating an account, you agree to Amazon's
+    <a class="text-blue-600 hover:underline" href="#">Conditions of Use</a> and
+    <a class="text-blue-600 hover:underline" href="#">Privacy Notice</a>.
+   </p>
+  </div>
+ </body>
+</html>

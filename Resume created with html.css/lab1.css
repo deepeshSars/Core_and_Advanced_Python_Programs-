@@ -1,0 +1,59 @@
+/*----------------- Universal Selector -------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Calibri", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 10px;
+}
+/*----------------- ID Selector -------------------------*/
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*----------------- Element/Tag Selector -------------------------*/
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2em;
+  color: #e33c4a;
+}
+
+header p a {
+  color: #db345b;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+h2 {
+  color: #cc3131;
+  margin-top: 20px;
+  border-bottom: 2px solid #db3434;
+  padding-bottom: 5px;
+}
+/*----------------- Class Selector -------------------------*/
+.edu {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
